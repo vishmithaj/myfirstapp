@@ -52,6 +52,12 @@ import EssentialLink from 'components/EssentialLink.vue'
 const linksList = [
 
 {
+    title: 'Home',
+    caption: '',
+    icon: 'home',
+    link: '/IndexPage'
+  },
+{
     title: 'Tiktok',
     caption: 'Follow us',
     icon: 'tiktok',
@@ -73,7 +79,7 @@ const linksList = [
     title: 'About',
     caption: 'About us',
     icon: 'info',
-    link: '/aboutPage'
+    link: '/AboutPage'
   }
 ]
 

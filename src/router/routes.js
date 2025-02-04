@@ -4,7 +4,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: '/aboutpage', component: () => import('pages/about.vue') }
+      { path: '/IndexPage', component: () => import('pages/IndexPage.vue') },
+      { path: '/tiktok', component: () => import('https://tiktok.com/@sltechravi') },
+      { path: '/youtube', component: () => import('https://youtube.com/@sltechravi') },
+      { path: '/facebook', component: () => import('https://facebook.com/sltechravi') },
+      { path: '/Aboutpage', component: () => import('pages/AboutPage.vue') }
     ]
   },
 
