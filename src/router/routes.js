@@ -3,12 +3,11 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: '/IndexPage', component: () => import('pages/IndexPage.vue') },
+      { path: '', component: () => import('src/pages/IndexPage.vue') },
       { path: '/tiktok', component: () => import('https://tiktok.com/@sltechravi') },
       { path: '/youtube', component: () => import('https://youtube.com/@sltechravi') },
       { path: '/facebook', component: () => import('https://facebook.com/sltechravi') },
-      { path: '/Aboutpage', component: () => import('pages/AboutPage.vue') }
+      { path: '/AboutPage', component: () => import('src/pages/AboutPage.vue') }
     ]
   },
 
