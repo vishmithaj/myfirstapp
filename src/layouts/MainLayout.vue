@@ -15,7 +15,7 @@
           SL TECH RAVI
         </q-toolbar-title>
 
-        <div>version 1.0.1test</div>
+        <div>version 1.0</div>
       </q-toolbar>
     </q-header>
 

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SL TECH RAVI</string>
+    <string name="title_activity_main">SL TECH RAVI</string>
+    <string name="package_name">org.sltechravi.quasar.new1</string>
+    <string name="custom_url_scheme">org.sltechravi.quasar.new1</string>
+</resources>

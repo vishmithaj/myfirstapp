@@ -1,4 +1,4 @@
-<!-- filepath: src/components/about.vue -->
+<!-- eslint-disable no-unused-vars -->
 <template>
   <h1>About</h1><i>
   <p>
@@ -7,18 +7,23 @@
 
     <h2>Our Mission</h2>
     <p>
-      Our mission is to help you leverage technology to achieve your goals efficiently and effectively. We aim to provide high-quality, reliable, and affordable tech solutions that enhance your operations and boost productivity.
+      Our mission is to help you leverage technology to achieve your goals efficiently and
+      effectively. We aim to provide high-quality, reliable, and affordable tech solutions that
+      enhance your operations and boost productivity.
     </p>
 
     <h2>Our Vision</h2>
     <p>
-      We envision a world where technology drives positive change and innovation in every industry. Our vision is to be a trusted partner in the tech space, offering modern, scalable, and future-proof solutions.
+      We envision a world where technology drives positive change and innovation in every industry.
+      Our vision is to be a trusted partner in the tech space, offering modern, scalable, and
+      future-proof solutions.
     </p></i>
+
 </template>
 
 <script>
 export default {
-  name: 'AboutUs'
+  name: 'AboutUs',
 }
 </script>
 
@@ -29,12 +34,12 @@ export default {
 
 h1 {
   font-size: 36px;
-  color: #f39212;
+  color: orange;
 }
 
 h2 {
   font-size: 28px;
-  color: #f39c12;
+  color: orangered;
 }
 
 ul {
